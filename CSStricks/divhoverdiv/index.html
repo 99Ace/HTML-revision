@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .parent {
+            height: 400px;
+            width: 400px;
+            background-color: bisque;
+            position: relative;
+            background-image: url(../3fixedbackground/AmongUs.jpeg);
+            background-size: cover;
+            
+        }
+        .parent:hover .child {
+            display: block;
+        }
+        .child {
+            position: absolute;
+            top: 0;
+            height: 100%;
+            width: 100%;
+            background-color: rgba(0,0,0,0.8);
+            color: white;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        HOVER OVER ME AND SEE MY CHILD
+        <div class="child">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum perferendis architecto impedit nihil debitis qui maxime cum enim eius delectus sed earum recusandae maiores tenetur fuga temporibus, amet neque reiciendis.</p>
+        </div>
+    </div>
+</body>
+</html>

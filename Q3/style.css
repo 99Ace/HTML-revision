@@ -1,0 +1,11 @@
+/* Using ID to target and we put a # in front of the name */
+#section-ingredient {
+    background-color: lightblue;
+    color: rgb(12, 12, 121);
+}
+
+/* Using Class to target and we put a . in front of the name */
+.section-direction {
+    background-color: pink;
+    color: maroon;
+}
