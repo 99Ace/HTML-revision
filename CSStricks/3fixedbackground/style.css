@@ -1,0 +1,29 @@
+main {
+    height: 100vh;
+    background-color: antiquewhite;
+    background-image: url(AmongUs.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.banner {
+    height: 200px;
+    background-color: white;
+}
+
+#second {
+    height: 100vh;
+    background-color: antiquewhite;
+    background-image: url(bird.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+#third {
+    height: 100vh;
+    background-color: antiquewhite;
+    background-image: url(AmongUs.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
